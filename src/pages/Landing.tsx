@@ -24,7 +24,7 @@ const companies = [
     },
     {
         to: '/acougue',
-        name: 'Vale do Boi Açougue',
+        name: 'Vale do Boi Carnes',
         segment: 'Açougue',
         description: 'Cortes selecionados com qualidade premium. Atendimento personalizado e carnes frescas diariamente para sua família.',
         icon: Store,
@@ -128,7 +128,7 @@ export function Landing() {
                                 qualidade, rastreabilidade e respeito ao bem-estar animal.
                             </p>
                             <p>
-                                Nossas três empresas — TRValedoboi, Vale do Boi Distribuidora e Vale do Boi Açougue —
+                                Nossas três empresas — TRValedoboi, Vale do Boi Distribuidora e Vale do Boi Carnes —
                                 trabalham de forma integrada para oferecer o melhor da carne bovina, do campo à sua mesa.
                             </p>
                         </>
