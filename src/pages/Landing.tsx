@@ -57,18 +57,11 @@ function useFadeIn() {
 
 export function Landing() {
     const containerRef = useFadeIn()
-    const { data: content, isLoading } = useContent('landing')
+    const { data: content } = useContent('landing')
 
     const hero = content?.hero as HeroContent
     const about = content?.about as AboutContent
 
-    if (isLoading) {
-        return (
-            <div className="loading-container">
-                <div className="spinner" />
-            </div>
-        )
-    }
 
     return (
         <div className="landing-page" ref={containerRef}>
