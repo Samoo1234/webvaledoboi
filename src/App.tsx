@@ -16,6 +16,7 @@ import { Landing } from './pages/Landing'
 import { Transportadora } from './pages/Transportadora'
 import { Distribuidora } from './pages/Distribuidora'
 import { Acougue } from './pages/Acougue'
+import { ContentManagement } from './pages/ContentManagement'
 import './landing.css'
 
 const queryClient = new QueryClient({
@@ -75,6 +76,7 @@ export function App() {
                             <Route path="suppliers" element={<Suppliers />} />
                             <Route path="suppliers/new" element={<SupplierForm />} />
                             <Route path="suppliers/:id" element={<SupplierForm />} />
+                            <Route path="cms" element={<ContentManagement />} />
                         </Route>
 
                         <Route path="*" element={<Navigate to="/" replace />} />

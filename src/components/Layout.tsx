@@ -11,6 +11,7 @@ import {
     DollarSign,
     Menu,
     X,
+    Settings,
 } from 'lucide-react'
 
 const navItems = [
@@ -19,6 +20,7 @@ const navItems = [
     { to: '/app/receivables', label: 'Contas a Receber', icon: ArrowUpCircle },
     { to: '/app/categories', label: 'Categorias', icon: Tags },
     { to: '/app/suppliers', label: 'Fornecedores', icon: Truck },
+    { to: '/app/cms', label: 'Gerenciar Site', icon: Settings },
 ]
 
 export function Layout() {

@@ -4,6 +4,7 @@ import { Package, Snowflake, TruckIcon, Award, BarChart3, Users } from 'lucide-r
 export function Distribuidora() {
     return (
         <CompanyPage
+            slug="distribuidora"
             name="Vale do Boi Distribuidora"
             tagline="Distribuidora de Carnes — Qualidade do abate à entrega"
             about="A Vale do Boi Distribuidora é referência na distribuição de carnes bovinas de alta qualidade. Atendemos restaurantes, supermercados, açougues e estabelecimentos comerciais com uma logística eficiente e cadeia fria garantida. Nossos produtos passam por rigoroso controle de qualidade para chegar à sua mesa com frescor e sabor."

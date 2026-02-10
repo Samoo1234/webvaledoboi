@@ -4,6 +4,7 @@ import { Truck, Shield, MapPin, Clock, Thermometer, FileCheck } from 'lucide-rea
 export function Transportadora() {
     return (
         <CompanyPage
+            slug="transportadora"
             name="TRValedoboi"
             tagline="Transportadora de Bovinos — Segurança e pontualidade no transporte animal"
             about="A TRValedoboi é especializada no transporte de bovinos vivos com os mais altos padrões de segurança e bem-estar animal. Nossa frota moderna conta com veículos adaptados e climatizados, garantindo que os animais cheguem ao destino com saúde e qualidade. Operamos em todo o território nacional com rastreamento em tempo real."

@@ -4,6 +4,7 @@ import { Store, Beef, ChefHat, Star, ShoppingBag, Heart } from 'lucide-react'
 export function Acougue() {
     return (
         <CompanyPage
+            slug="acougue"
             name="Vale do Boi Açougue"
             tagline="Açougue — Cortes selecionados com qualidade premium"
             about="O Vale do Boi Açougue é o ponto de venda direto ao consumidor do nosso grupo. Aqui você encontra os melhores cortes bovinos, selecionados diariamente com frescor e qualidade garantidos. Nossos açougueiros são profissionais experientes que preparam cada corte com cuidado e atenção para oferecer a melhor experiência ao cliente."
