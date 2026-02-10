@@ -170,7 +170,7 @@ export function Receivables() {
                                                     <button
                                                         className="btn btn-ghost btn-icon"
                                                         title="Editar"
-                                                        onClick={() => navigate(`/receivables/${r.id}`)}
+                                                        onClick={() => navigate(`/app/receivables/${r.id}`)}
                                                     >
                                                         <Pencil size={16} />
                                                     </button>

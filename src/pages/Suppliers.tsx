@@ -71,7 +71,7 @@ export function Suppliers() {
                                                     <button
                                                         className="btn btn-ghost btn-icon"
                                                         title="Editar"
-                                                        onClick={() => navigate(`/suppliers/${s.id}`)}
+                                                        onClick={() => navigate(`/app/suppliers/${s.id}`)}
                                                     >
                                                         <Pencil size={16} />
                                                     </button>
